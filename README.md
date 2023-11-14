@@ -12,8 +12,8 @@ Neste projeto foi utilizado apenas HTML e CSS para a criação da página inicia
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
 ## Acesso ao projeto
-- Verificar a resolução.
-- Site no ar.
+- [Verificar a resolução](https://www.frontendmentor.io/solutions/workit-landing-page-with-html-e-css-DMMcguBilq).
+- [Site no ar](https://caioikn.github.io/workit/).
 
 ## Abrir e rodar o projeto
 1. Clone este repositório em sua máquina local ou baixe os arquivos clicando [aqui](https://github.com/caioikn/workit/archive/main/workit.zip).
