@@ -1,0 +1,15 @@
+footer {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+footer>img {
+    margin-bottom: 4rem;
+}
+
+footer .sociais {
+    align-items: center;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+}

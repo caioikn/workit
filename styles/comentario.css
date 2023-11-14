@@ -1,0 +1,118 @@
+.comentario {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 10.75rem 0 4.62rem 0;
+    text-align: center;
+}
+
+.comentario img {
+    width: 80%;
+}
+
+.comentario div {
+    background-color: #24053E;
+    color: #FFFFFF;
+    margin-top: -3.5rem;
+    padding: 2rem;
+}
+
+.comentario div h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 3rem;
+    margin-bottom: 1rem;
+}
+
+.comentario div p {
+    font-family: 'Manrope', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.comentario div button {
+    background-color: #44FFA1;
+    border: 2px solid #44FFA1;
+    cursor: pointer;
+    font-family: 'Manrope', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: -0.01rem;
+    line-height: 2rem;
+    padding: 0.75rem 1.5rem;
+    transition: all 0.3s;
+}
+
+.comentario div button:hover {
+    background: transparent;
+    color: #44FFA1;
+}
+
+@media screen and (min-width: 768px) {
+    .comentario {
+        text-align: start;
+    }
+
+    .comentario img {
+        align-self: flex-start;
+        width: 16.5rem;
+    }
+
+    .comentario div {
+        align-self: flex-end;
+        margin-top: -7.5rem;
+        padding: 3rem 3.5rem;
+        position: relative;
+        width: 77%;
+    }
+
+    .comentario div::after {
+        content: '';
+        background-image: url('../assets/images/bg-pattern-3.svg');
+        background-repeat: no-repeat;
+        height: 100%;
+        position: absolute;
+        width: 221px;
+        left: 55%;
+        z-index: 2;
+    }
+
+    .comentario div h2 {
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .comentario {
+        margin-bottom: 8rem;
+    }
+
+    .comentario img {
+        width: 28rem;
+    }
+
+    .comentario div {
+        margin-top: -18rem;
+        padding: 4rem;
+        width: 68%;
+    }
+
+    .comentario div h2 {
+        font-size: 3.5rem;
+        margin-bottom: 2rem;
+        line-height: 4rem;
+    }
+
+    .comentario div p {
+        font-size: 1.125rem;
+        line-height: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .comentario div::after {
+        left: 60%;
+    }
+}
